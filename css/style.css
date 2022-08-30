@@ -49,6 +49,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
+    word-break: break-all;
 }
 
 .task-title__done {
