@@ -37,6 +37,7 @@ p {
 .task-group-item {
     background: #fff;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -49,7 +50,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
-    word-break: break-word;
+    word-break: unset;
     padding-right: 5px;
 }
 
@@ -106,6 +107,7 @@ p {
     background: #fff;
     border-radius: 5px;
     width: 100%;
+    overflow: hidden;
 }
 
 .list-group__item {
